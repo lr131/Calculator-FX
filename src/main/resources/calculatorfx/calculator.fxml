@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculatorfx.CalculatorController">
+  <TextField fx:id="output" alignment="CENTER_RIGHT" onKeyReleased="#keyLesten" editable="false" layoutX="15.0" layoutY="15.0" prefHeight="70.0" prefWidth="370.0" />
+  <Button layoutX="15.0" layoutY="100.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="1" />
+  <Button layoutX="95.0" layoutY="100.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="2" />
+  <Button layoutX="175.0" layoutY="100.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="3" />
+  <Button layoutX="255.0" layoutY="100.0" mnemonicParsing="false" onAction="#operate" prefHeight="50.0" prefWidth="50.0" text="/" />
+  <Button layoutX="335.0" layoutY="100.0" mnemonicParsing="false" onAction="#operate" prefHeight="50.0" prefWidth="50.0" text="+" />
+
+  <Button layoutX="15.0" layoutY="170.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="4" />
+  <Button layoutX="95.0" layoutY="170.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="5" />
+  <Button layoutX="175.0" layoutY="170.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="6" />
+  <Button layoutX="255.0" layoutY="170.0" mnemonicParsing="false" onAction="#clear" prefHeight="50.0" prefWidth="50.0" text="C" />
+  <Button layoutX="335.0" layoutY="170.0" mnemonicParsing="false" onAction="#operate" prefHeight="50.0" prefWidth="50.0" text="-" />
+
+  <Button layoutX="15.0" layoutY="240.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="7" />
+  <Button layoutX="95.0" layoutY="240.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="8" />
+  <Button layoutX="175.0" layoutY="240.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="9" />
+  <Button layoutX="255.0" layoutY="240.0" mnemonicParsing="false" onAction="#calculate" prefHeight="50.0" prefWidth="50.0" text="=" />
+  <Button layoutX="335.0" layoutY="240.0" mnemonicParsing="false" onAction="#operate" prefHeight="50.0" prefWidth="50.0" text="*" />
+
+  <Button layoutX="15.0" layoutY="310.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="50.0" text="0" />
+</AnchorPane>
